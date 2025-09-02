@@ -160,14 +160,14 @@
 
 
         //Casting
-        $a = "5Jerwin";
-        $b = 21;
-        $c = 3.14;
-        $d = true;
-        $e = [1, 2, 3];
-        $f = new stdClass();
-        $g = NULL;
-        $h = fopen("php_practice.php", "r");
+        // $a = "5Jerwin";
+        // $b = 21;
+        // $c = 3.14;
+        // $d = true;
+        // $e = [1, 2, 3];
+        // $f = new stdClass();
+        // $g = NULL;
+        // $h = fopen("php_practice.php", "r");
 
         // casting - string
         // $a = (string) $a;
@@ -223,22 +223,177 @@
 
 
 
-        var_dump($a);
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+
+        //php math
+        // $pi = pi();
+        // echo $pi, "<br>";
+
+        // $minNumber = min(300, 80, 4, 98, 3);
+        // $maxNumber = max(300, 80, 4, 98, 3);
+
+        // echo $minNumber, "<br>";
+        // echo $maxNumber, "<br>";
+
+        // $num = -3.3;
+
+        // echo abs($num), "<br>";
+
+        // $sqrt = sqrt(9);
+        // echo $sqrt, "<br>";
+
+        // $round = round(4.68, 1);
+        // echo $round, "<br>";
+
+        // echo PHP_INT_MAX, "<br>";
+        // echo PHP_INT_MIN, "<br>";
+        // echo rand(), "<br>";
+
+        // echo rand(5, 30), "<br>";
+
+        // php constant
+        // define("Hello", 21);
+
+        // function test() {
+        //     echo Hello;
+        // }
+
+        // test();
+
+        // php operators
+        // arithmetic
+
+        // addition + sum
+        // echo 6 + 2, "<br>";
+
+        //subtraction - difference
+        // echo 19 - 12, "<br>";
+
+        // echo 7 - 2 + 90, "<br>"; // pemdas
+
+        // multiplication * product
+        // echo 14 * 98, "<br>";
+
+        // division / quotient
+
+        // echo 14 / 98, "<br>";
+
+        // echo 6 * 2 / 2, "<br>";
+
+        // // modulus % remainder
+        // echo 5 % 3, "<br>";
+
+        //exponent **
+        // echo 6**2, "<br>";
+
+        // assignment
+        // $x = 5;
+
+        // // +=
+        // $x += 10;
+
+        // echo $x, "<br>";
+
+        // comparison
+
+        // ==
+        // var_dump(6 == "6");
+        // echo "<br>";
+
+        // ===
+        // var_dump(6 === "6");
+        // echo "<br>";
+
+        // !=
+        // var_dump(100 != 99);
+        // echo "<br>";
+
+        // !==
+        
+        // var_dump(100 !== 100);
+        // echo "<br>";
+
+        // >
+        // >=
+        // var_dump(6 >= 4);
+        // echo "<br>";
+
+        // <
+        // <=
+        // var_dump(6 <= 6);
+        // echo "<br>";
+
+        // <=>
+        // echo 1 <=> 1;
+
+        // ++ increment
+        // $x = 5;
+        // PRE - increment
+        // echo ++$x, "<br>";
+        // $y = 5;
+
+        // POST - increment
+        // echo $y++, "<br>";
+
+        // -- decrement
+        // $x = 5;
+
+        // PRE - increment
+        // echo --$x, "<br>";
+        // $y = 5;
+
+        // POST - increment
+        // echo $y--, "<br>";
+
+        // logical
+
+        // and &&
+        // var_dump(true and false);
+        // echo "<br>";
+
+        // var_dump(6 == "6" && 6 > 9);
+        // echo "<br>";
+
+        // or ||
+        // var_dump(true or false);
+        // echo "<br>";
+        // var_dump(6 == "6" || 6 > 9);
+        // echo "<br>";
+        
+        // xor
+        // var_dump(true xor false);
+        // echo "<br>";
+        // var_dump(6 == "6" xor 6 > 9);
+        // echo "<br>";
+
+
+        //  !
+        // var_dump(!true);
+        // echo "<br>";
+        // var_dump(!(6 == "6"));
+
+        // string operator
+        echo "Hello " . "World!";
         echo "<br>";
-        var_dump($b);
-        echo "<br>";
-        var_dump($c);
-        echo "<br>";
-        var_dump($d);
-        echo "<br>";
-        var_dump($e);
-        echo "<br>";
-        var_dump($f);
-        echo "<br>";
-        var_dump($g);
-        echo "<br>";
-        var_dump($h);
-        echo "<br>";
+        
+        $x = "Hello ";
+        $x .= "World!";
+        echo $x;
     ?>
 </body>
 </html>
